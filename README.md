@@ -28,7 +28,7 @@ Para executar. Rode **start.bat**
 
 Não me responsabilizo pelo uso .. Projeto em desenvolvimento
 
-
+**email@brunodasilva.com**
 Bruno da Silva
 
 
