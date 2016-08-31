@@ -7,8 +7,8 @@ var dateFormat = require('dateformat');
 
 
 // Definir suas API-KEY-SECRET
-var apiKey = '';
-var apiSecret = '';
+var apiKey = 'SUA API KEY';
+var apiSecret = 'SUA API SECRET';
 
 
 
