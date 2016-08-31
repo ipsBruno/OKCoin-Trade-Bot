@@ -14,15 +14,15 @@ Agora execute o **install.bat** da pasta e aguarde ele instalar as dependencias.
 
 # Configuração
 
-Para configurar seu bot você precisa pegar [**chave api OKCoin**](https://www.okcoin.com/user/api.do) 
+Para configurar seu bot você precisa pegar sua [**chave api OKCoin**](https://www.okcoin.com/user/api.do) 
 
-Então no arquivo **server.js** edite
+Então no arquivo **server.js** edite com bloco de notas
 ```javascript
 var apiKey = 'SUA API KEY';
 var apiSecret = 'SUA API SECRET';
 ```
 
-Outra configurações como margem de lucro, valor para trade. Devem ser modificadas em **server.js diretamente no código. Que está todo comentado.
+Outras configurações como margem de lucro, valor para trade. Devem ser modificadas em **server.js** diretamente no código. Que está todo comentado para fácil entendimento.
 
 # Execução
 
