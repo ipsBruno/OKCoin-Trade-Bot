@@ -7,7 +7,7 @@ Para rodar este BOT é necessário o [**NodeJS 64 Bits**](https://nodejs.org/dis
 
 Após isto, baixe [**nosso bot em .zip**](https://github.com/ipsBruno/OKCoin-Trade-Bot/archive/master.zip) e descompacte em sua desktop
 
-Agora execute o **install.bat** da pasta e aguarde ele instalar a dependencia. Após isto apague o install.bat
+Agora execute o **install.bat** da pasta e aguarde ele instalar as dependencias. Após isto apague o install.bat
 
 
 # Configuração
