@@ -2,10 +2,10 @@
 
 var exports = module.exports = {};
 
-exports.exchangeData 		= null;
-exports.userData 			= null;
-exports.updateOders 		= null;
-exports.userOrders			= null;
+exports.exchangeData = null;
+exports.userData = null;
+exports.updateOders = null;
+exports.userOrders = null;
 
 
 exports.ConfigureInfos = function(callback = null, callbackorders = null) {
@@ -17,34 +17,34 @@ exports.ConfigureInfos = function(callback = null, callbackorders = null) {
 	var internal = setInterval(function() {
 		if (exports.exchangeData != null && exports.userData != null) {
 
-			if(callback != null) {
+			if (callback != null) {
 				callback();
 			}
-			
+
 			clearInterval(internal);
 		}
 	}, 1000);
-	
 
-	if(exports.updateOders  != null) {
-		clearInterval(exports.updateOders) ;
+
+	if (exports.updateOders != null) {
+		clearInterval(exports.updateOders);
 	}
-	
-	exports.updateOders  = setInterval(function() {			
+
+	exports.updateOders = setInterval(function() {
 		global.privateClient.getOrderInfo(function(c, d) {
-				if (!c) {
-					if (d["result"]) {
-						exports.userOrders = d;
-						
-						if(callbackorders != null) {
-							callbackorders (d) ;
-						}
-						
+			if (!c) {
+				if (d["result"]) {
+					exports.userOrders = d;
+
+					if (callbackorders != null) {
+						callbackorders(d);
 					}
+
 				}
-			}, 'btc_usd', '-1');
+			}
+		}, 'btc_usd', '-1');
 	}, 1000);
-	
+
 	return true;
 
 };
@@ -102,13 +102,13 @@ exports.sellbtc = function(amount, price, callback) {
 						}
 						if (!find) {
 							clearInterval(interval);
-							
-							if(callback != null) {
+
+							if (callback != null) {
 								callback(b["order_id"], 'sell');
 							}
 						}
-					}				
-				},	1000);
+					}
+				}, 1000);
 			}
 		}
 	}, 'btc_usd', 'sell', amount, price);
@@ -131,13 +131,13 @@ exports.buybtc = function(amount, price, callback = null) {
 						}
 						if (!find) {
 							clearInterval(interval);
-							
-							if(callback != null) {
+
+							if (callback != null) {
 								callback(b["order_id"], 'buy');
 							}
 						}
-					}				
-				},	1000);
+					}
+				}, 1000);
 			}
 		}
 	}, 'btc_usd', 'buy', amount, price);
