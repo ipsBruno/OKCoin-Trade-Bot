@@ -26,6 +26,11 @@ Outras configurações como margem de lucro, valor para trade. Devem ser modific
 
 # Execução
 
+**Atenção:**
+O bot está pre-configurado para rodar utilizando todos dólares em sua sua conta. 
+Comprando e vendendo Bitcoins períodicamente.
+
+
 Para executar. Rode **start.bat**
 
 Não me responsabilizo pelo uso .. Projeto em desenvolvimento
