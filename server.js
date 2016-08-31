@@ -44,7 +44,7 @@ function onConfigureInfo() {
 
 
 	// Chamar função para comprar a ordem na exchange
-	//API.buybtc(infoTrade.buy.amount, infoTrade.buy.price, onCompleteBuyOrder);
+	API.buybtc(infoTrade.buy.amount, infoTrade.buy.price, onCompleteBuyOrder);
 
 
 	// Informar ao usuário
@@ -57,7 +57,7 @@ function onCompleteBuyOrder(orderid, type) {
 
 	// Agora que a ordem buy foi fechada, temos Bitcoins comprados. Portanto vamos vende-los
 
-	//API.sellbtc(infoTrade.sell.amount, infoTrade.sell.price, onCompleteSellOrder);
+	API.sellbtc(infoTrade.sell.amount, infoTrade.sell.price, onCompleteSellOrder);
 
 	// Informar ao usuário
 	logConsole("[" + dateFormat(new Date(), "h:MM:ss") + "] Criando ordem de venda | Quantia: " + infoTrade.sell.amount + " BTC");
