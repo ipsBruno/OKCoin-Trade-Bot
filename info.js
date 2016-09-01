@@ -84,6 +84,9 @@ exports.getDollarUser = function() {
 	return parseFloat(exports.userData["info"]["funds"]["free"]["usd"]);
 };
 
+exports.getUserOrders = function() {
+	return (exports.userOrders);
+};
 
 exports.sellbtc = function(amount, price, callback) {
 	global.privateClient.addTrade(function(a, b) {
