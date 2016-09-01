@@ -5,7 +5,7 @@ Este é um BOT automático que realiza trades pela rede da OKCoin de forma autom
 ![OKCoin Bot Trade](http://i.imgur.com/qTp1YLx.png)
 
 # Intalação
-Para rodar este BOT é necessário o [**NodeJS 6.3.1 64 Bits**](https://nodejs.org/download/release/v6.3.1/node-v6.3.1-x64.msi) ou  [**NodeJS 32 Bits**](https://nodejs.org/download/release/v6.3.1/node-v6.3.1-x86.msi) instalado em sua maquina
+Para rodar este BOT é necessário o [**NodeJS v6.3.1 64 Bits**](https://nodejs.org/download/release/v6.3.1/node-v6.3.1-x64.msi) ou  [**NodeJS v6.3.1 32 Bits**](https://nodejs.org/download/release/v6.3.1/node-v6.3.1-x86.msi) instalado em sua maquina
 
 Após isto, baixe [**nosso bot em .zip**](https://github.com/ipsBruno/OKCoin-Trade-Bot/archive/master.zip) e descompacte em sua desktop
 
