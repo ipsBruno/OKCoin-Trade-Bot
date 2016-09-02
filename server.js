@@ -77,7 +77,7 @@ function onCompleteSellOrder() {
 // Caso estiver abaixo do mercado, cancela ela para evitar perdas. Stop Loss
 function onUpdateOrders(orders) {
 	for (var v = 0; v != orders["orders"].length; v++) {
-		if ((new Date().getTime() / 1000) - ["orders"][v]["create_date"] >= 600) {
+		if (new Date().getTime()  - ["orders"][v]["create_date"] >= 600000) {
 			logConsole("A ordem  já está a mais de 10 minutos sendo executada");
 		}
 	}
