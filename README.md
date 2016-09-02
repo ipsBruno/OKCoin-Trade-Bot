@@ -37,6 +37,8 @@ Não me responsabilizo pelo uso ..
 
 Projeto em desenvolvimento
 
+**Doação:**
+
 Caso tenha gostado do projeto e queira colaborar com ele de alguma forma, faça uma doação de qualquer valor para este endereço:
 
 **1MeBoEaPpEn8KA4gBSbUkSD4WzedKaAkZU**
