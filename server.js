@@ -25,8 +25,7 @@ var API = require('./info.js');
 // callback orders é chamada logo que as informações de trade são recebidas
 // Como conta do usuáro, cotação do bitcoin, entre outros
 // callbackorder é chamada a cada segundo com uma informação em tempo real das ordens abertas pelo usuário
-API.ConfigureInfos(onConfigureInfo);
-API.ConfigureInfos(null, onUpdateOrders);
+API.ConfigureInfos(onConfigureInfo, onUpdateOrders);
 
 
 // Essa array global-pública vai servir para intermediar os valores 
