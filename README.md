@@ -41,7 +41,7 @@ Projeto em desenvolvimento
 
 Caso tenha gostado do projeto e queira colaborar com ele de alguma forma, faça uma doação de qualquer valor para este endereço:
 
-**1MeBoEaPpEn8KA4gBSbUkSD4WzedKaAkZU**
+**1DnfsJA3YYRQQCoFmBipskzjKEuUUDJPzA**
 
 Não pedimos nada em troca para o uso de BOT, não quero porcentagens, não vou te vender, é tudo livre.
 
